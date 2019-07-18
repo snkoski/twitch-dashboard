@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Switch>
         <Route path='/top-streams' component={Streams} />
-        <Route path='/gamestreams' component={GameStreams} />
+        <Route path='/game/:id' component={GameStreams} />
         <Route exact path='/' component={Games} />
       </Switch>
     </div>
